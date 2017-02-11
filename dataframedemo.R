@@ -1,0 +1,7 @@
+df=data.frame(usn=c(123L,124L,125L),name=c('abc','bcd','def'),branch=c('cs','is','ec'))
+print(df)
+print(df$usn)
+print(df[2])
+print(df$usn[1])
+print(str(df))
+print(length(df))
